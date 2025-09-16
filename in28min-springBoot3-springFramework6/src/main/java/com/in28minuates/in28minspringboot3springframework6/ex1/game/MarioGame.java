@@ -1,6 +1,6 @@
-package com.in28minuates.in28minspringboot3springframework6.game;
+package com.in28minuates.in28minspringboot3springframework6.ex1.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole{
 
     public void up(){
         System.out.println("Jump");
