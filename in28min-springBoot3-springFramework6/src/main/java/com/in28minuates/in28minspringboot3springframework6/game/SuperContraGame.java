@@ -1,18 +1,25 @@
 package com.in28minuates.in28minspringboot3springframework6.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole{
 
+    @Override
     public void up(){
-        System.out.println("Up");
+        System.out.println("SuperContra Up");
     }
+
+    @Override
     public void down(){
-        System.out.println("Sit down");
+        System.out.println("SuperContra Down");
     }
+
+    @Override
     public void left(){
-        System.out.println("Go Back");
+        System.out.println("SuperContra Left");
     }
+
+    @Override
     public void right(){
-        System.out.println("Shoot a bullet");
+        System.out.println("SuperContra Right");
     }
 
 }

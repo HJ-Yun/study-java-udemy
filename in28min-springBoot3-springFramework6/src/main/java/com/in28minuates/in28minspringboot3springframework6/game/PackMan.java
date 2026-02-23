@@ -1,25 +1,25 @@
 package com.in28minuates.in28minspringboot3springframework6.game;
 
-public class MarioGame implements GamingConsole{
+public class PackMan implements GamingConsole{
 
     @Override
     public void up(){
-        System.out.println("Mario Up");
+        System.out.println("PackMan Up");
     }
 
     @Override
     public void down(){
-        System.out.println("Mario Down");
+        System.out.println("PackMan down");
     }
 
     @Override
     public void left(){
-        System.out.println("Mario Left");
+        System.out.println("PackMan Left");
     }
 
     @Override
     public void right(){
-        System.out.println("Mario Right");
+        System.out.println("PackMan Right");
     }
 
 }
