@@ -1,9 +1,4 @@
-package com.in28minuates.in28minspringboot3springframework6;
-
-import com.in28minuates.in28minspringboot3springframework6.game.GameRunner;
-import com.in28minuates.in28minspringboot3springframework6.game.MarioGame;
-import com.in28minuates.in28minspringboot3springframework6.game.PackMan;
-import com.in28minuates.in28minspringboot3springframework6.game.SuperContraGame;
+package com.in28minuates.in28minspringboot3springframework6.game01;
 
 public class App01GamingBasicJava {
 
@@ -16,7 +11,7 @@ public class App01GamingBasicJava {
 
         // Chapter 2
 //        var superContraGame = new SuperContraGame();
-//        //if I want to change game to superContraGame, I have to change GameRunner class to SuperContraGame
+//        //if I want to change game01 to superContraGame, I have to change GameRunner class to SuperContraGame
 //        //Tight Coupling
 //        var gameRunner = new GameRunner(superContraGame);
 //        gameRunner.run();
