@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 public class CourseController {
 
-    //course
+    //entity
     //id, name, author
     @RequestMapping("/course")
     public List<Course> retrieveAllCour(){

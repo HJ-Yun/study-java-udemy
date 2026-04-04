@@ -2,7 +2,7 @@ package com.in28minutes.springboot.learnsrpingboot;
 
 public class Course {
 
-    //course
+    //entity
     //id, name, author
     private long id;
     private String name;
