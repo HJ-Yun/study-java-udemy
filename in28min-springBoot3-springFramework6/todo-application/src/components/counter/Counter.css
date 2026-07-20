@@ -20,8 +20,26 @@
     border-width: 5px;
 }
 
+.resetCounterButton {
+    font-size:16px;
+    background-color: #353cba;
+    width:200px;
+    margin:10px;
+    color:white;
+    padding:15px;
+    border-radius:30px;
+    border-color: black;
+    border-width: 5px;
+}
+
 .count{
-    font-size: 150px;
+    font-size: 50px;
     padding: 20px;
 
+}
+
+.totalCount{
+    font-size:150px;
+    padding: 20px;
+    color: #1BA8CB;
 }

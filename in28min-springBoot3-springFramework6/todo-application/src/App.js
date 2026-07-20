@@ -4,16 +4,18 @@ import './App.css';
 // import ClassComponent from "./components/examples/ClassComponent";
 // import {AnotherFirstComponent} from "./components/examples/FirstComponent"
 // import LearningJavaScript from "./components/examples/LearningJavaScript";
-import Counter from "./components/counter/Counter";
+
+// import Counter   from "./components/counter/Counter";
+import TodoApp from "./components/todo/TodoApp"
 
 function App(){
   return(
       <div className="App">
-        <Counter />
-        <Counter by={1}/>
-        <Counter by={2}/>
-        <Counter by={5}/>
-
+          <TodoApp/>
+          {/*<Counter/>*/}
+          {/*<CounterButton by={1}/>*/}
+          {/*<CounterButton by={2}/>*/}
+          {/*<CounterButton by={5}/>*/}
       </div>
   )
 }
